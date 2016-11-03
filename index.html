@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Prime Academy Pre-Work, Week 4 Bonus: T. Andrew Taton</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Splinter Challenge</h1>
+  </header>
+  <main>
+    <section id="explanation">
+      <p>The pre-work instructions asked us to log the resulting array to the console, and I've done that. But I'm also going to use this exercise to practice using JavaScript and jQuery to work with the DOM. Here goes!</p>
+    </section>
+    <section id="jScriptPractice">
+      <h2>JavaScript DOM Method Practice</h2>
+      <p>This section will execute the splinter function on user input, and output the returned splinter function array (as a parsed string) using JavaScript alone (and no jQuery). I think the code is incompatible with IE 8 and earlier. (Just in case you live on the planet where everyone still uses IE.)</p>
+      First number: <input id="jScriptNum1" type="number">
+      Second number: <input id="jScriptNum2" type="number">
+      <button id="jScriptSubmit" onclick="jScriptFuncOutput()">Submit</button>
+      Splinter function output array:
+      <p id="jScriptOutput"></p>
+    </section>
+    <section id="jQueryPractice">
+      <h2>jQuery DOM Method Practice</h2>
+      <p>This section does the same thing as the JavaScript section above, but uses jQuery instead. This should be compatible with all browsers.</p>
+      First number: <input id="jQueryNum1" type="number">
+      Second number: <input id="jQueryNum2" type="number">
+      <button id="jQuerySubmit" onclick="jQueryFuncOutput()">Submit</button>
+      Splinter function output array:
+      <p id="jQueryOutput"></p>
+    </section>
+  </main>
+</body>
+</html>
